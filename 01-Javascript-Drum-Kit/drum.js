@@ -15,21 +15,39 @@ function animateKey(key) {
   key.classList.toggle("playing");
 }
 
-window.addEventListener("keydown", function (event) {
-  const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
-  const key = document.querySelector(`.key[data-key="${event.keyCode}"]`);
+function play(keyCode) {
+  const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
+  const key = document.querySelector(`.key[data-key="${keyCode}"]`);
 
   playAudio(audio);
   animateKey(key);
-});
+}
+
+function keyboardListener(event) {
+  play(event.keyCode);
+}
+
+function mouseListener(event) {
+  let target = event.target;
+
+  if (event.target !== this) {
+    target = target.parentElement;
+  }
+
+  play(target.getAttribute("data-key"));
+}
+
+window.addEventListener("keydown", keyboardListener);
 
 const keys = document.querySelectorAll(".key");
-keys.forEach((key) =>
+keys.forEach((key) => {
   key.addEventListener("transitionend", (e) => {
     if (e.propertyName !== "transform") {
       return;
     }
 
     e.target.classList.remove("playing");
-  })
-);
+  });
+
+  key.onclick = mouseListener;
+});
