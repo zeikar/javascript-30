@@ -34,12 +34,24 @@
       <input id="base" type="color" name="base" value="#ffc600" />
     </div>
 
-    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" />
+    <img src="https://source.unsplash.com/800x500" />
 
     <style>
-      /*
-      misc styles, nothing to do with CSS variables
-    */
+      :root {
+        --base: #ffc600;
+        --spacing: 10px;
+        --blur: 10px;
+      }
+
+      img {
+        padding: var(--spacing);
+        background: var(--base);
+        filter: blur(var(--blur));
+      }
+
+      .hl {
+        color: var(--base);
+      }
 
       body {
         text-align: center;
@@ -59,6 +71,22 @@
       }
     </style>
 
-    <script></script>
+    <script>
+      const inputs = document.querySelectorAll(".controls input");
+      const image = document.querySelector("img");
+
+      function handleUpdate(event) {
+        // attribute 중에서 data- 뒤에 오는 것들 가져옴.
+        const suffix = this.dataset.sizing || "";
+        
+        document.documentElement.style.setProperty(
+          `--${this.name}`,
+          this.value + suffix
+        );
+      }
+
+      inputs.forEach((e) => e.addEventListener("change", handleUpdate));
+      inputs.forEach((e) => e.addEventListener("mousemove", handleUpdate));
+    </script>
   </body>
 </html>
