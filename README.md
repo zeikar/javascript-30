@@ -15,3 +15,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [03-CSS-Variables](https://zeikar.github.io/javascript-30/03-CSS-Variables/)
 - [04-Array-Cardio-Day-1](https://zeikar.github.io/javascript-30/04-Array-Cardio-Day-1/)
 - [05-Flex-Panel-Gallery](https://zeikar.github.io/javascript-30/05-Flex-Panel-Gallery/)
+- [06-Type-Ahead](https://zeikar.github.io/javascript-30/06-Type-Ahead/)
