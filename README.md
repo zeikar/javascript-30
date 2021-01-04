@@ -17,3 +17,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [05-Flex-Panel-Gallery](https://zeikar.github.io/javascript-30/05-Flex-Panel-Gallery/)
 - [06-Type-Ahead](https://zeikar.github.io/javascript-30/06-Type-Ahead/)
 - [07-Array-Cardio-Day-2](https://zeikar.github.io/javascript-30/07-Array-Cardio-Day-2/)
+- [08-Fun-with-HTML5-Canvas](https://zeikar.github.io/javascript-30/08-Fun-with-HTML5-Canvas/)
