@@ -21,3 +21,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [09-Dev-Tools-Domination](https://zeikar.github.io/javascript-30/09-Dev-Tools-Domination/)
 - [10-Hold-Shift-and-Check-Checkboxes](https://zeikar.github.io/javascript-30/10-Hold-Shift-and-Check-Checkboxes/)
 - [11-Custom-Video-Player](https://zeikar.github.io/javascript-30/11-Custom-Video-Player/)
+- [12-Key-Sequence-Detection](https://zeikar.github.io/javascript-30/12-Key-Sequence-Detection/)
