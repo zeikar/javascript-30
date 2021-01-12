@@ -9,6 +9,32 @@
     ></script>
   </head>
   <body>
-    <script></script>
+    <div
+      style="
+        font-size: xx-large;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    ></div>
+    <script>
+      const pressed = [];
+      const secretCode = "wesbos";
+
+      // print to div
+      document.querySelector("div").innerText = `Type "${secretCode}"`;
+
+      window.addEventListener("keyup", (e) => {
+        pressed.push(e.key);
+        pressed.splice(0, pressed.length - secretCode.length);
+
+        if (pressed.join("").includes(secretCode)) {
+          cornify_add();
+        }
+
+        console.log(pressed.join(""));
+      });
+    </script>
   </body>
 </html>
