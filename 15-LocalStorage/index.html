@@ -51,11 +51,19 @@
         <input type="text" name="item" placeholder="Item Name" required />
         <input type="submit" value="+ Add Item" />
       </form>
+      <div class="buttons">
+        <button id="clear">🔄</button>
+        <button id="check">✅</button>
+        <button id="uncheck">🔳</button>
+      </div>
     </div>
 
     <script>
       const addItems = document.querySelector(".add-items");
       const itemsList = document.querySelector(".plates");
+      const clearButton = document.querySelector("#clear");
+      const checkButton = document.querySelector("#check");
+      const uncheckButton = document.querySelector("#uncheck");
       const items = JSON.parse(localStorage.getItem("items")) || [];
 
       function addItem(e) {
@@ -97,8 +105,26 @@
         localStorage.setItem("items", JSON.stringify(items));
       }
 
+      function checkAll(checked) {
+        items.forEach((element) => {
+          element.done = checked;
+        });
+        localStorage.setItem("items", JSON.stringify(items));
+        populateList(items, itemsList);
+      }
+
+      function clearAll() {
+        items.splice(0, items.length);
+        localStorage.setItem("items", JSON.stringify(items));
+        populateList(items, itemsList);
+      }
+
       addItems.addEventListener("submit", addItem);
       itemsList.addEventListener("click", toggleDone);
+      clearButton.addEventListener("click", clearAll);
+      checkButton.addEventListener("click", () => checkAll(true));
+      uncheckButton.addEventListener("click", () => checkAll(false));
+
       populateList(items, itemsList);
 
       console.log(localStorage);

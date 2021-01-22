@@ -79,3 +79,14 @@ h2 {
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.buttons {
+  display: flex;
+}
+
+button {
+  flex: 1;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
