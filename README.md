@@ -25,3 +25,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [13-Slide-in-on-Scroll](https://zeikar.github.io/javascript-30/13-Slide-in-on-Scroll/)
 - [14-JavaScript-References-VS-Copying](https://zeikar.github.io/javascript-30/14-JavaScript-References-VS-Copying/)
 - [15-LocalStorage](https://zeikar.github.io/javascript-30/15-LocalStorage/)
+- [16-Mouse-Move-Shadow](https://zeikar.github.io/javascript-30/16-Mouse-Move-Shadow/)
