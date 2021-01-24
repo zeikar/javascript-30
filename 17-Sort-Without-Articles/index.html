@@ -59,6 +59,24 @@
         "Anywhere But Here",
         "An Old Dog",
       ];
+
+      function strip(str) {
+        return str.replace(/^(a |an |the )/i, "").trim();
+      }
+
+      const sorted = bands.sort((a, b) => {
+        if (strip(a) > strip(b)) {
+          return 1;
+        } else {
+          return -1;
+        }
+      });
+
+      document.querySelector("#bands").innerHTML = sorted
+        .map((e) => `<li>${e}</li>`)
+        .join("");
+
+      console.log(sorted);
     </script>
   </body>
 </html>
