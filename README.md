@@ -27,3 +27,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [15-LocalStorage](https://zeikar.github.io/javascript-30/15-LocalStorage/)
 - [16-Mouse-Move-Shadow](https://zeikar.github.io/javascript-30/16-Mouse-Move-Shadow/)
 - [17-Sort-Without-Articles](https://zeikar.github.io/javascript-30/17-Sort-Without-Articles/)
+- [18-Adding-Up-Times-with-Reduce](https://zeikar.github.io/javascript-30/18-Adding-Up-Times-with-Reduce/)
