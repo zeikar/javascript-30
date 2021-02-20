@@ -30,3 +30,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [18-Adding-Up-Times-with-Reduce](https://zeikar.github.io/javascript-30/18-Adding-Up-Times-with-Reduce/)
 - [19-Webcam-Fun](https://zeikar.github.io/javascript-30/19-Webcam-Fun/)
 - [20-Speech-Detection](https://zeikar.github.io/javascript-30/20-Speech-Detection/)
+- [21-Geolocation](https://zeikar.github.io/javascript-30/21-Geolocation/)
