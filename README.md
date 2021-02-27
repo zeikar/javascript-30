@@ -33,3 +33,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [21-Geolocation](https://zeikar.github.io/javascript-30/21-Geolocation/)
 - [22-Follow-Along-Link-Highlighter](https://zeikar.github.io/javascript-30/22-Follow-Along-Link-Highlighter/)
 - [23-Speech-Synthesis](https://zeikar.github.io/javascript-30/23-Speech-Synthesis/)
+- [24-Sticky-Nav](https://zeikar.github.io/javascript-30/24-Sticky-Nav/)
