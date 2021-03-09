@@ -36,3 +36,4 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [24-Sticky-Nav](https://zeikar.github.io/javascript-30/24-Sticky-Nav/)
 - [25-Event-Capture-Propagation-Bubbling-and-Once](https://zeikar.github.io/javascript-30/25-Event-Capture-Propagation-Bubbling-and-Once/)
 - [26-Stripe-Follow-Along-Nav](https://zeikar.github.io/javascript-30/26-Stripe-Follow-Along-Nav/)
+- [27-Click-and-Drag](https://zeikar.github.io/javascript-30/27-Click-and-Drag/)
