@@ -37,3 +37,6 @@ All results are available on https://zeikar.github.io/javascript-30/
 - [25-Event-Capture-Propagation-Bubbling-and-Once](https://zeikar.github.io/javascript-30/25-Event-Capture-Propagation-Bubbling-and-Once/)
 - [26-Stripe-Follow-Along-Nav](https://zeikar.github.io/javascript-30/26-Stripe-Follow-Along-Nav/)
 - [27-Click-and-Drag](https://zeikar.github.io/javascript-30/27-Click-and-Drag/)
+- [28-Video-Speed-Controller](https://zeikar.github.io/javascript-30/28-Video-Speed-Controller/)
+- [29-Countdown-Timer](https://zeikar.github.io/javascript-30/29-Countdown-Timer/)
+- [30-Whack-A-Mole](https://zeikar.github.io/javascript-30/30-Whack-A-Mole/)
